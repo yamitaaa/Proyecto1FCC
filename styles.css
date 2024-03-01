@@ -1,0 +1,31 @@
+body {
+    text-align: center; 
+    background-image: url(https://i.pinimg.com/564x/af/14/7c/af147c8ae4671ef34461441b0576853f.jpg);
+    color: #35374B;
+  }
+  
+  form {
+    background-color: #A5DD9B;
+    padding-bottom: 2em;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    width: 60vw;
+    padding-bottom: 2em;
+    width: 70%;
+    position: sticky;
+    left: 15%;
+  
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+    text-align: left;
+  }
+  
+  input[type="number"] {
+    width: 150px;
+  }
+  
+  

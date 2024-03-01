@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>"Patitas Verdes"</title>
+    </head>
+
+    <body>
+      <h1 id="title">Encuesta de satisfacción</h1>
+      <p id="description">Completa la siguiente encuenta para que nuestro servicio pueda ser mejor</p>
+      <div>
+        <form id="survey-form">
+
+        <fieldset>
+
+          <p>Datos Personales</p>
+
+          <label for="name" id="name-label">Nombre
+            <input type="text" required id="name" placeholder="Ingrese su nombre"></label>
+
+          <label> Apellido <input type="text" required placeholder="Ingrese su apellido"> </label>
+
+          <label for="email" id="email-label"> Email <input type="email" required id="email" placeholder="Ingrese su Email"> </label>
+
+          <label for="number" id="number-label"> Edad (opcional) <input type="number" min="18" max="99" id="number" placeholder="seleccione su edad"></label>
+
+          </fieldset>
+
+    <fieldset>
+      <p>Por favor, seleccione el tipo de atención que recibió:</p>
+      <label> <input type="radio" checked class="inline" value="vaterinaria" name="radio"> Veterinaria </label>
+      <label> <input type="radio" class="inline" value="tienda-virtual" name="radio"> Tienda Virtual </label>
+      
+
+
+  <p>Seleccione su nivel de satisfacción con el servicio otorgado</p>
+  <select id="dropdown">
+    <option value="" name="empty">---</option>
+    <option value="1" name="insatisfecho">Insatisfecho</option>
+    <option value="2" name="poco-satisfecho">Poco Satisfecho</option>
+    <option value="3" name="neutral">Neutral</option>
+    <option value="4" name="satisfecho">Satisfecho</option>
+    <option value="5" name="muy-satisfecho">Muy Satisfecho</option>
+</select>
+
+<p>Elija un medio por donde recibir el beneficio (Puede seleccionar más de uno)</p>
+
+<label> <input type="checkbox" value="whatsapp"> WhatsApp</label>
+<label> <input type="checkbox" value="instagram"> Instagram </label>
+<label> <input type="checkbox" value="email"> Email </label>
+  </fieldset>
+
+<fieldset>
+<p>Escriba un comentario (puede ser una recomendación u opinión):</p>
+<textarea rows="3" cols="30"></textarea>
+
+  </fieldset>
+<input type="submit" value="Submit" id="submit">
+  </form>
+      </body>
+
+  </html>
